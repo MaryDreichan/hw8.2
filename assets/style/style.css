@@ -1,0 +1,145 @@
+.btn-primary{
+    border-radius: 35px;
+    background-color: #5222D0;
+    border: 0;
+    font-family: 'Intro', 'Arial';
+    font-size: 13px;
+}
+.btn-secondary{
+    border-radius: 35px;
+    background-color: #5222D0;
+    border: 0;
+    font-family: 'Intro', 'Arial';
+    font-size: 35px;
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+.main_1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    justify-content: center;
+}
+.main_1_1{
+    font-size: 60px;
+    font-family: 'Intro', 'Arial';
+    margin-left: 60px;
+    width: 80%;
+}
+.main_1_2{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 60px;
+    width: 80%;
+}
+.main_image{
+    width: 50%;
+}
+.main_1_button{
+    margin-left: 58px;
+    height: 100px;
+}
+.footer1{
+    display: flex;
+    margin-left: 60px;
+    height: 200px;
+    align-items: end;
+}
+.nav-link{
+    color:#5222D0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+.main2_1{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-left: 110px;
+    font-size: 60px;
+    align-items: end;
+    font-family: 'Intro', 'Arial';
+    
+}
+.main2_2{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 130px;
+    justify-content: space-around;
+}
+.card{
+    border: 0;
+}
+.card-title{
+    font-size: 20px;
+    font-family: 'Intro', 'Arial';
+}
+.card-text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+.card-img-top{
+    background-image: url(/assets/image/background.png);
+
+}
+.main2_3{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: 130px;
+    justify-content: space-between;
+}
+.form{
+    height: 150px;
+    width: 250px;
+    background-image: url(/assets/image/background.png);
+}
+.form-group{
+    font-family: 'Intro', 'Arial';
+    font-size: 20px;
+}
+.footer2{
+    display: flex;
+    margin-left: 60px;
+    height: 100px;
+    align-items: end;
+}
+img{
+    max-width: 100%;
+}
+@font-face {
+    font-family: 'Intro';
+    src: url(/assets/fonts/intro.ttf);
+}
+@media (max-width: 900px) {
+    .main{
+        flex-direction: column;
+    }
+    .main_1_1{
+        font-size: 35px;
+    }
+    .main_1_2{
+        font-size: 14px;
+    }
+    .btn-secondary{
+        font-size: 18px;
+    }
+    .main_image{
+        object-fit: cover; 
+    }
+    .main2_1{
+        font-size: 25px;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+}
